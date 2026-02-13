@@ -1,0 +1,102 @@
+#app {
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+/*Hero Section*/
+.hero-section {
+  position: relative;
+}
+
+.hero-section .btn {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.router-link-exact-active {
+  font-weight: bold;
+  color: #98DED9 !important;
+}
+
+.card-product {
+  background-color: #161D6F;
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+
+.breadcrumb-item {
+  color: #adb5bd;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #adb5bd;
+}
+
+.breadcrumb-item.active {
+  color: #98DED9;
+  font-weight: bold;
+}
+
+/* Animation fade-in */
+.fade-enter-active {
+  transition: opacity .3s;
+}
+.fade-enter-from {
+  opacity: 0;
+}
+
+/* Define custom color variables */
+:root {
+  --color-primary: #F6F6F6;
+  --color-secondary: #C7FFD8;
+  --color-info: #98DED9;
+  --color-dark: #161D6F;
+}
+
+/* Custom background color classes */
+.bg-primary-custom {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-secondary-custom {
+  background-color: var(--color-secondary) !important;
+}
+
+.bg-info-custom {
+  background-color: var(--color-info) !important;
+}
+
+.bg-dark-custom {
+  background-color: var(--color-dark) !important;
+}
+
+/* Custom text color classes */
+.text-primary-custom {
+  color: var(--color-primary) !important;
+}
+
+.text-secondary-custom {
+  color: var(--color-secondary) !important;
+}
+
+.text-info-custom {
+  color: var(--color-info) !important;
+}
+
+.text-dark-custom {
+  color: var(--color-dark) !important;
+}
+
